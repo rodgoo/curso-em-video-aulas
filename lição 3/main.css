@@ -1,0 +1,26 @@
+style
+{
+    font-size: 20px;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    h1 {   
+     font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+        color: gray;
+    }
+
+  h4 {
+        text-align: center;
+    }
+
+h5 {
+    text-align: center;
+}
