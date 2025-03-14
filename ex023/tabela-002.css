@@ -26,6 +26,11 @@ tbody > td {
     width: 20px;
 }
 
+tbody > tr:nth-child(2n) {
+    background-color: gray;
+    color: white;
+}
+
 tr.special {
     background-color: rgb(255, 217, 0);
     color: rgb(0, 0, 0);
@@ -41,4 +46,22 @@ tfoot {
     background-color: black;
     color: white;
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width:98%;
+    padding:5px;
+    bottom: 0;
+    position: absolute;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer > p > a {
+    color: rgb(182, 226, 164);
+}
+footer > p > a:hover {
+    color: rgb(114, 192, 83);
 }
