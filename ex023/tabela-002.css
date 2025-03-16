@@ -13,7 +13,7 @@ table {
     width: 100vh;
     border-collapse: collapse;
     table-layout: fixed;
-
+    position: relative;
 }
 
 td, th {
@@ -41,6 +41,12 @@ thead {
     background-color: black;
     color: white;
 }
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: black;
+    }
 
 tfoot {
     background-color: black;
