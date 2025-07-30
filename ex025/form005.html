@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        form {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="off">
+    <fieldset>
+        <legend><b>Nome</b></legend>
+        <label for="iname">Nome:</label>
+        <input type="text" name="nome" id="iname" required minlength="4">
+    </fieldset>
+        
+    <fieldset>
+        <legend><b>Sexo</b></legend>
+        <input type="radio" name="Sexo" id="isexom" checked>
+        <label for="isexom">Masculino</label>
+
+        <input type="radio" name="Sexo" id="isexof">
+        <label for="isexof">Feminino</label>
+
+        <input type="radio" name="Sexo" id="isexoo">
+        <label for="isexoo">Outros</label>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Esportes Favoritos</b></legend>
+        <input type="checkbox" name="esfut" id="ifut">
+        <label for="ifut">Futebol</label>
+
+        <input type="checkbox" name="esnat" id="inat">
+        <label for="inat">Natação</label>       
+
+        <input type="checkbox" name="estenis" id="itenis">
+        <label for="itenis">Tênis</label>
+
+        <input type="checkbox" name="eskate" id="iskate">
+        <label for="iskate">Skate</label>
+
+        <input type="checkbox" name="esalp" id="ialp">
+        <label for="ialp">Alpinismo</label>
+
+        <input type="checkbox" name="esbike" id="ibike">
+        <label for="ibike">Bike</label>
+    </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+</html>
